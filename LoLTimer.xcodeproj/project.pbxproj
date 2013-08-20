@@ -7,16 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CD9C71617C370E4007CBACC /* [IconName].iconset in Resources */ = {isa = PBXBuildFile; fileRef = 1CD9C71517C370E4007CBACC /* [IconName].iconset */; };
 		BC51684717BBBF5A00C4DEFF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC51684617BBBF5A00C4DEFF /* Cocoa.framework */; };
 		BC51685117BBBF5A00C4DEFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC51684F17BBBF5A00C4DEFF /* InfoPlist.strings */; };
 		BC51685317BBBF5A00C4DEFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51685217BBBF5A00C4DEFF /* main.m */; };
 		BC51685717BBBF5A00C4DEFF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BC51685517BBBF5A00C4DEFF /* Credits.rtf */; };
 		BC51685A17BBBF5A00C4DEFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51685917BBBF5A00C4DEFF /* AppDelegate.m */; };
 		BC51685D17BBBF5A00C4DEFF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC51685B17BBBF5A00C4DEFF /* MainMenu.xib */; };
+		BC51686517BBCB0D00C4DEFF /* LTTimerEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51686417BBCB0D00C4DEFF /* LTTimerEntry.m */; };
+		BC8CC11417BCBCE400F726FB /* LTEntryCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8CC11317BCBCE400F726FB /* LTEntryCellView.m */; };
+		BC8CC11717BD3D8800F726FB /* LTNumberField.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8CC11617BD3D8800F726FB /* LTNumberField.m */; };
+		BC8CC11917BF63CB00F726FB /* stopButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8CC11817BF63CB00F726FB /* stopButtonImage.png */; };
+		BC8CC12C17BFAE2000F726FB /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8CC12B17BFAE2000F726FB /* ShortcutRecorder.framework */; };
+		BC8CC12F17BFAEB000F726FB /* ShortcutRecorder.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC8CC12B17BFAE2000F726FB /* ShortcutRecorder.framework */; };
+		BC8CC13E17BFB50E00F726FB /* libPTHotkey-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8CC13D17BFB50E00F726FB /* libPTHotkey-OSX.a */; };
+		BC8CC14617BFB55100F726FB /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8CC14517BFB55100F726FB /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BC8CC12E17BFAEA200F726FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BC8CC12F17BFAEB000F726FB /* ShortcutRecorder.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		BC51684317BBBF5A00C4DEFF /* LoLTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoLTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD9C71517C370E4007CBACC /* [IconName].iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = "[IconName].iconset"; path = "../icons/[IconName].iconset"; sourceTree = "<group>"; };
+		BC51684317BBBF5A00C4DEFF /* LoLTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = LoLTimer.app; path = LoLTimerMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC51684617BBBF5A00C4DEFF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		BC51684917BBBF5A00C4DEFF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		BC51684A17BBBF5A00C4DEFF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -29,6 +52,22 @@
 		BC51685817BBBF5A00C4DEFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC51685917BBBF5A00C4DEFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BC51685C17BBBF5A00C4DEFF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BC51686317BBCB0D00C4DEFF /* LTTimerEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTimerEntry.h; sourceTree = "<group>"; };
+		BC51686417BBCB0D00C4DEFF /* LTTimerEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTimerEntry.m; sourceTree = "<group>"; };
+		BC8CC11217BCBCE400F726FB /* LTEntryCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTEntryCellView.h; sourceTree = "<group>"; };
+		BC8CC11317BCBCE400F726FB /* LTEntryCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTEntryCellView.m; sourceTree = "<group>"; };
+		BC8CC11517BD3D8800F726FB /* LTNumberField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTNumberField.h; sourceTree = "<group>"; };
+		BC8CC11617BD3D8800F726FB /* LTNumberField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTNumberField.m; sourceTree = "<group>"; };
+		BC8CC11817BF63CB00F726FB /* stopButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopButtonImage.png; sourceTree = "<group>"; };
+		BC8CC12B17BFAE2000F726FB /* ShortcutRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShortcutRecorder.framework; sourceTree = "<group>"; };
+		BC8CC13D17BFB50E00F726FB /* libPTHotkey-OSX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPTHotkey-OSX.a"; sourceTree = "<group>"; };
+		BC8CC13F17BFB53100F726FB /* PTHotKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTHotKey.h; sourceTree = "<group>"; };
+		BC8CC14017BFB53100F726FB /* PTHotKeyCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTHotKeyCenter.h; sourceTree = "<group>"; };
+		BC8CC14117BFB53100F726FB /* PTKeyBroadcaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTKeyBroadcaster.h; sourceTree = "<group>"; };
+		BC8CC14217BFB53100F726FB /* PTKeyCodeTranslator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTKeyCodeTranslator.h; sourceTree = "<group>"; };
+		BC8CC14317BFB53100F726FB /* PTKeyCombo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTKeyCombo.h; sourceTree = "<group>"; };
+		BC8CC14417BFB53100F726FB /* PTKeyComboPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTKeyComboPanel.h; sourceTree = "<group>"; };
+		BC8CC14517BFB55100F726FB /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +75,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8CC14617BFB55100F726FB /* Carbon.framework in Frameworks */,
 				BC51684717BBBF5A00C4DEFF /* Cocoa.framework in Frameworks */,
+				BC8CC12C17BFAE2000F726FB /* ShortcutRecorder.framework in Frameworks */,
+				BC8CC13E17BFB50E00F726FB /* libPTHotkey-OSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +105,8 @@
 		BC51684517BBBF5A00C4DEFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BC8CC14517BFB55100F726FB /* Carbon.framework */,
+				BC8CC12B17BFAE2000F726FB /* ShortcutRecorder.framework */,
 				BC51684617BBBF5A00C4DEFF /* Cocoa.framework */,
 				BC51684817BBBF5A00C4DEFF /* Other Frameworks */,
 			);
@@ -72,6 +116,7 @@
 		BC51684817BBBF5A00C4DEFF /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BC8CC13D17BFB50E00F726FB /* libPTHotkey-OSX.a */,
 				BC51684917BBBF5A00C4DEFF /* AppKit.framework */,
 				BC51684A17BBBF5A00C4DEFF /* CoreData.framework */,
 				BC51684B17BBBF5A00C4DEFF /* Foundation.framework */,
@@ -82,10 +127,18 @@
 		BC51684C17BBBF5A00C4DEFF /* LoLTimer */ = {
 			isa = PBXGroup;
 			children = (
+				BC8CC13817BFB30500F726FB /* PTHotKey */,
+				BC8CC11A17BF6D8B00F726FB /* Resources */,
 				BC51685817BBBF5A00C4DEFF /* AppDelegate.h */,
 				BC51685917BBBF5A00C4DEFF /* AppDelegate.m */,
 				BC51685B17BBBF5A00C4DEFF /* MainMenu.xib */,
+				BC8CC11517BD3D8800F726FB /* LTNumberField.h */,
+				BC8CC11617BD3D8800F726FB /* LTNumberField.m */,
 				BC51684D17BBBF5A00C4DEFF /* Supporting Files */,
+				BC51686317BBCB0D00C4DEFF /* LTTimerEntry.h */,
+				BC51686417BBCB0D00C4DEFF /* LTTimerEntry.m */,
+				BC8CC11217BCBCE400F726FB /* LTEntryCellView.h */,
+				BC8CC11317BCBCE400F726FB /* LTEntryCellView.m */,
 			);
 			path = LoLTimer;
 			sourceTree = "<group>";
@@ -102,22 +155,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BC8CC11A17BF6D8B00F726FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9C71517C370E4007CBACC /* [IconName].iconset */,
+				BC8CC11817BF63CB00F726FB /* stopButtonImage.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC8CC13817BFB30500F726FB /* PTHotKey */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CC13F17BFB53100F726FB /* PTHotKey.h */,
+				BC8CC14017BFB53100F726FB /* PTHotKeyCenter.h */,
+				BC8CC14117BFB53100F726FB /* PTKeyBroadcaster.h */,
+				BC8CC14217BFB53100F726FB /* PTKeyCodeTranslator.h */,
+				BC8CC14317BFB53100F726FB /* PTKeyCombo.h */,
+				BC8CC14417BFB53100F726FB /* PTKeyComboPanel.h */,
+			);
+			name = PTHotKey;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC51684217BBBF5A00C4DEFF /* LoLTimer */ = {
+		BC51684217BBBF5A00C4DEFF /* LoLTimerMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC51686017BBBF5A00C4DEFF /* Build configuration list for PBXNativeTarget "LoLTimer" */;
+			buildConfigurationList = BC51686017BBBF5A00C4DEFF /* Build configuration list for PBXNativeTarget "LoLTimerMac" */;
 			buildPhases = (
 				BC51683F17BBBF5A00C4DEFF /* Sources */,
 				BC51684017BBBF5A00C4DEFF /* Frameworks */,
 				BC51684117BBBF5A00C4DEFF /* Resources */,
+				BC8CC12E17BFAEA200F726FB /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LoLTimer;
+			name = LoLTimerMac;
 			productName = LoLTimer;
 			productReference = BC51684317BBBF5A00C4DEFF /* LoLTimer.app */;
 			productType = "com.apple.product-type.application";
@@ -142,7 +218,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC51684217BBBF5A00C4DEFF /* LoLTimer */,
+				BC51684217BBBF5A00C4DEFF /* LoLTimerMac */,
 			);
 		};
 /* End PBXProject section */
@@ -155,6 +231,8 @@
 				BC51685117BBBF5A00C4DEFF /* InfoPlist.strings in Resources */,
 				BC51685717BBBF5A00C4DEFF /* Credits.rtf in Resources */,
 				BC51685D17BBBF5A00C4DEFF /* MainMenu.xib in Resources */,
+				BC8CC11917BF63CB00F726FB /* stopButtonImage.png in Resources */,
+				1CD9C71617C370E4007CBACC /* [IconName].iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +245,9 @@
 			files = (
 				BC51685317BBBF5A00C4DEFF /* main.m in Sources */,
 				BC51685A17BBBF5A00C4DEFF /* AppDelegate.m in Sources */,
+				BC51686517BBCB0D00C4DEFF /* LTTimerEntry.m in Sources */,
+				BC8CC11417BCBCE400F726FB /* LTEntryCellView.m in Sources */,
+				BC8CC11717BD3D8800F726FB /* LTNumberField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +344,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoLTimer/LoLTimer-Prefix.pch";
 				INFOPLIST_FILE = "LoLTimer/LoLTimer-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks/";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,9 +365,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoLTimer/LoLTimer-Prefix.pch";
 				INFOPLIST_FILE = "LoLTimer/LoLTimer-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks/";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -295,13 +394,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC51686017BBBF5A00C4DEFF /* Build configuration list for PBXNativeTarget "LoLTimer" */ = {
+		BC51686017BBBF5A00C4DEFF /* Build configuration list for PBXNativeTarget "LoLTimerMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC51686117BBBF5A00C4DEFF /* Debug */,
 				BC51686217BBBF5A00C4DEFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
